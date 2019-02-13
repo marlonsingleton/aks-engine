@@ -3,8 +3,6 @@
 In this tutorial you are going to learn how to use [AKS Engine](https://github.com/Azure/aks-engine) to deploy a brand new cluster into an existing or pre-created virtual network.
 By doing this, you will be able to control the properties of the virtual network or integrate a new cluster into your existing infrastructure.
 
-*Note: This article describes the procedure with Docker Swarm but it will work in the exact same way with the all the orchestrators available with AKS Engine: Docker Swarm, Kubernetes and DC/OS.*
-
 *For Kubernetes, the cluster should be deployed in the same resource group as the virtual network and the service principal you use for the cluster needs permissions on the VNET resource's group too. Custom VNET for Kubernetes Windows cluster has a [known issue](https://github.com/Azure/aks-engine/issues/371).*
 
 ## Prerequisites
